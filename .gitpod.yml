@@ -1,6 +1,5 @@
 image:
-  file: Dockerfile
-tasks:
-  - command: "mvn package && mvn exec:java"
+  file: .gitpod.Dockerfile
+
 ports:
-  - port: 6080
+- port: 6080
